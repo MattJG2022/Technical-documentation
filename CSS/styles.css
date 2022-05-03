@@ -1,0 +1,27 @@
+#navbar {
+width: 45%;
+height: 100%;
+position: sticky;
+display: block;
+top: 0px;
+left: 0px;
+color: black;
+background-color: white;
+text-align: left;
+}
+
+ @media screen and (max-height: 450px) {
+   # navbar  {padding-top: 15px;}
+   #navbar  a {font-size: 18px;}
+ }
+
+ body {
+   background-color: #F0FFFF;
+   min-width: 290px;
+   font-family: 'Open Sans', Arial, sans-serif;
+   line-height: 1.5;
+ }
+
+ .list {
+   vertical-align: 200%;
+ }
